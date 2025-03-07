@@ -2,9 +2,9 @@ name: CI/CD Pipeline # Tên workflow (tùy chọn)
 
 on: # Cấu hình trigger kích hoạt workflow
   push:
-    branches: [ "main" ] # Kích hoạt khi push lên nhánh main
+    branches: [ "master" ] # Kích hoạt khi push lên nhánh master
   pull_request:
-    branches: [ "main" ] # Kích hoạt khi có pull request vào nhánh main
+    branches: [ "master" ] # Kích hoạt khi có pull request vào nhánh master
 
 jobs: # Định nghĩa các job (công việc) trong workflow
 
